@@ -44,6 +44,7 @@ html.ie8 div.testimonial-author div.thumbnail img {
 /* Pricing Plans */
 html.ie8 div.plan-ribbon-wrapper {
 	top: -30px;
+	bottom:20px;
 }
 
 html.ie8 div.plan-ribbon-wrapper div.plan-ribbon {
