@@ -135,17 +135,17 @@ var Core = {
 			headerHeight = header.height(),
 			logo = header.find(".logo img"),
 			logoWidth = logo.width(),
-			logoHeight = logo.height(),
+			logoHeight = 50,
 			$this = this,
 			logoSmallHeight = 50;
 
 		logo
-			.css("height", logoSmallHeight);
+			.css("height", 50);
 
 		var logoSmallWidth = logo.width();
 
 		logo
-			.css("height", "auto")
+			.css("height", 50)
 			.css("width", "auto");
 
 		var flatParentItems = $("header.flat-menu ul.nav-main > li > a");
@@ -157,15 +157,9 @@ var Core = {
 				if($("body").hasClass("sticky-menu-active"))
 					return false;
 
-				logo.stop(true, true);
 
 				$("body").addClass("sticky-menu-active").css("padding-top", headerHeight);
 				flatParentItems.addClass("sticky-menu-active");
-
-				logo.animate({
-					width: logoSmallWidth,
-					height: logoSmallHeight
-				}, 250, function() {});
 
 			} else {
 
@@ -173,18 +167,6 @@ var Core = {
 
 					$("body").removeClass("sticky-menu-active").css("padding-top", 0);
 					flatParentItems.removeClass("sticky-menu-active");
-
-					logo.animate({
-						width: logoWidth,
-						height: logoHeight
-					}, 250, function() {
-
-						logo.css({
-							width: "auto",
-							height: "auto"
-						});
-
-					});
 
 				}
 
