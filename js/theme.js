@@ -139,14 +139,9 @@ var Core = {
 			$this = this,
 			logoSmallHeight = 50;
 
-		logo
-			.css("height", logoSmallHeight);
 
 		var logoSmallWidth = logo.width();
 
-		logo
-			.css("height", "auto")
-			.css("width", "auto");
 
 		var flatParentItems = $("header.flat-menu ul.nav-main > li > a");
 
@@ -162,10 +157,6 @@ var Core = {
 				$("body").addClass("sticky-menu-active").css("padding-top", headerHeight);
 				flatParentItems.addClass("sticky-menu-active");
 
-				logo.animate({
-					width: logoSmallWidth,
-					height: logoSmallHeight
-				}, 250, function() {});
 
 			} else {
 
@@ -174,17 +165,6 @@ var Core = {
 					$("body").removeClass("sticky-menu-active").css("padding-top", 0);
 					flatParentItems.removeClass("sticky-menu-active");
 
-					logo.animate({
-						width: logoWidth,
-						height: logoHeight
-					}, 250, function() {
-
-						logo.css({
-							width: "auto",
-							height: "auto"
-						});
-
-					});
 
 				}
 
