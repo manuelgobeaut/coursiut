@@ -1096,6 +1096,10 @@ div.footer-copyright p {
 	padding: 0;
 }
 
+footer .span4{width: 300px;}
+footer .span2{width: 100px;}
+
+
 footer div.alert a {
 	color: #222 !important;
 }
