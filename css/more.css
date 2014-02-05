@@ -1,0 +1,23 @@
+.lead {
+    font-size: 21px;
+}
+
+.btn-primary {
+    margin-top: 35px;
+    font-size: 17px;
+}
+
+h3 {
+    margin-top: -3px;
+    font-size: 1.8em;
+    line-height: normal;
+    margin-bottom: 25px;
+}
+
+div.featured-box {
+    margin-top: 25px;
+}
+
+.thumbnail {
+    padding: 4px;
+}
