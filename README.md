@@ -1,3 +1,4 @@
-coursiut
+Cours IUT
 ========
-test
+
+LICENCE MIM
