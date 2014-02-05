@@ -8,7 +8,7 @@ body {
 	color: #777;
 	font-family: "Open Sans", Arial, sans-serif;
 	font-size: 14px;
-	line-height: 22px;
+	line-height: 15px;
 	margin: 0;
 }
 
@@ -164,6 +164,7 @@ header nav ul.nav-main ul.dropdown-menu,
 header nav ul.nav-main li.dropdown.open a.dropdown-toggle,
 header nav ul.nav-main li.active a {
 	background-color: #CCC;
+	font-weight:normal;
 }
 
 header nav ul.nav-main ul.dropdown-menu {
@@ -888,8 +889,8 @@ section.page-top ul.breadcrumb > li {
 }
 
 section.page-top h2 {
-	border-bottom: 2px solid #CCC;
-	color: #006DCC;
+	border-bottom: 5px solid #CCC;
+	color: white;
 	display: inline-block;
 	font-weight: 200;
 	margin: 0 0 -25px;
