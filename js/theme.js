@@ -131,48 +131,7 @@ var Core = {
 		if($("body").hasClass("boxed"))
 			return false;
 
-		var header = $("body header:first"),
-			headerHeight = header.height(),
-			logo = header.find(".logo img"),
-			logoWidth = logo.width(),
-			logoHeight = 50,
-			$this = this,
-			logoSmallHeight = 50;
-
-		logo
-			.css("height", 50);
-
-		var logoSmallWidth = logo.width();
-
-		logo
-			.css("height", 50)
-			.css("width", "auto");
-
-		var flatParentItems = $("header.flat-menu ul.nav-main > li > a");
-
-		$this.checkStickyMenu = function() {
-
-			if($(window).scrollTop() > ((headerHeight - 10) - logoSmallHeight) && $(window).width() > 767) {
-
-				if($("body").hasClass("sticky-menu-active"))
-					return false;
-
-
-				$("body").addClass("sticky-menu-active").css("padding-top", headerHeight);
-				flatParentItems.addClass("sticky-menu-active");
-
-			} else {
-
-				if($("body").hasClass("sticky-menu-active")) {
-
-					$("body").removeClass("sticky-menu-active").css("padding-top", 0);
-					flatParentItems.removeClass("sticky-menu-active");
-
-				}
-
-			}
-
-		}
+	
 
 		$(window).on("scroll", function() {
 
