@@ -131,66 +131,7 @@ var Core = {
 		if($("body").hasClass("boxed"))
 			return false;
 
-		var header = $("body header:first"),
-			headerHeight = header.height(),
-			logo = header.find(".logo img"),
-			logoWidth = logo.width(),
-			logoHeight = logo.height(),
-			$this = this,
-			logoSmallHeight = 50;
-
-		logo
-			.css("height", logoSmallHeight);
-
-		var logoSmallWidth = logo.width();
-
-		logo
-			.css("height", "auto")
-			.css("width", "auto");
-
-		var flatParentItems = $("header.flat-menu ul.nav-main > li > a");
-
-		$this.checkStickyMenu = function() {
-
-			if($(window).scrollTop() > ((headerHeight - 10) - logoSmallHeight) && $(window).width() > 767) {
-
-				if($("body").hasClass("sticky-menu-active"))
-					return false;
-
-				logo.stop(true, true);
-
-				$("body").addClass("sticky-menu-active").css("padding-top", headerHeight);
-				flatParentItems.addClass("sticky-menu-active");
-
-				logo.animate({
-					width: logoSmallWidth,
-					height: logoSmallHeight
-				}, 250, function() {});
-
-			} else {
-
-				if($("body").hasClass("sticky-menu-active")) {
-
-					$("body").removeClass("sticky-menu-active").css("padding-top", 0);
-					flatParentItems.removeClass("sticky-menu-active");
-
-					logo.animate({
-						width: logoWidth,
-						height: logoHeight
-					}, 250, function() {
-
-						logo.css({
-							width: "auto",
-							height: "auto"
-						});
-
-					});
-
-				}
-
-			}
-
-		}
+	
 
 		$(window).on("scroll", function() {
 

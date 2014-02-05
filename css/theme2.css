@@ -151,7 +151,7 @@ header nav select.selectnav {
 }
 
 header nav ul.nav-main {
-	margin: -5px 10px 10px 0;
+	margin: -6px -9px 12px 0;
 }
 
 header nav ul.nav-main li.dropdown.open a.dropdown-toggle {
@@ -987,7 +987,6 @@ footer div.footer-ribon span {
 
 footer div.container div.row > div {
 	margin-bottom: 25px;
-	padding-left: 10px;
 }
 
 footer div.container input:focus {
