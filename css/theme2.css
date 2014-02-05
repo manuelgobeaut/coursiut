@@ -164,6 +164,7 @@ header nav ul.nav-main ul.dropdown-menu,
 header nav ul.nav-main li.dropdown.open a.dropdown-toggle,
 header nav ul.nav-main li.active a {
 	background-color: #CCC;
+	font-weight: normal;
 }
 
 header nav ul.nav-main ul.dropdown-menu {
@@ -888,8 +889,8 @@ section.page-top ul.breadcrumb > li {
 }
 
 section.page-top h2 {
-	border-bottom: 2px solid #CCC;
-	color: #006DCC;
+	border-bottom: 5px solid #CCC;
+	color: #fff;
 	display: inline-block;
 	font-weight: 200;
 	margin: 0 0 -25px;
@@ -1094,6 +1095,10 @@ div.footer-copyright p {
 	margin: 0;
 	padding: 0;
 }
+
+footer .span4{width: 300px;}
+footer .span2{width: 100px;}
+
 
 footer div.alert a {
 	color: #222 !important;
