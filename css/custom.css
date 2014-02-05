@@ -1,1 +1,13 @@
 /* Add here all your CSS customizations */
+
+.logo img {
+	width: 78px;
+	height: 50px;
+}
+header nav ul.nav-main {
+	margin: -5px 11px 10px 0;
+}
+.dropup, .dropdown {
+	position: relative;
+	margin-right: -3px;
+}

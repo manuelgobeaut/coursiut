@@ -2,6 +2,7 @@ h3,
 h4,
 h5 {
 	color: #0088cc;
+	font-size: 25px;
 }
 
 a {
@@ -27,6 +28,8 @@ a:active {
 }
 
 .btn-primary {
+	padding: 11px 21px;
+	font-size: 17px;
 	color: #ffffff;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 	background-color: #006dcc;
