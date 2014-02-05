@@ -31,12 +31,10 @@ h2 {
 
 h3 {
 	color: #CCC;
-	font-size: 1.5em;
-	font-weight: 400;
-	letter-spacing: normal;
-	line-height: 60px;
-	margin-bottom: 33px;
-	text-transform: uppercase;
+font-weight: 400;
+letter-spacing: normal;
+line-height: 53px;
+text-transform: uppercase;
 }
 
 h4 {
@@ -147,9 +145,10 @@ h5.text-shadow {
 
 /* Paragraphs */
 p {
-	color: #777;
-	line-height: 24px;
-	margin: 0 0 20px;
+	ccolor: #777;
+line-height: 21px;
+margin: 0 0 20px;
+font-size: 14.5px;
 }
 
 p .alternative-font {
@@ -1439,7 +1438,7 @@ ul.timeline li div.featured-box {
 
 ul.timeline li div.featured-box div.box-content {
 	border-top-color: #CCC;
-	padding-top: 40px;
+padding-top: 31px;
 }
 
 /* Arrows */
