@@ -27,6 +27,8 @@ a:active {
 }
 
 .btn-primary {
+    font-size: 18.3px;
+    margin-top: 28.5px;
 	color: #ffffff;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 	background-color: #006dcc;
