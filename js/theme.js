@@ -145,8 +145,8 @@ var Core = {
 		var logoSmallWidth = logo.width();
 
 		logo
-			.css("height", "auto")
-			.css("width", "auto");
+			.css("height", "50px")
+			.css("width", "78px");
 
 		var flatParentItems = $("header.flat-menu ul.nav-main > li > a");
 
@@ -180,8 +180,8 @@ var Core = {
 					}, 250, function() {
 
 						logo.css({
-							width: "auto",
-							height: "auto"
+							width: "78px",
+							height: "50px"
 						});
 
 					});
