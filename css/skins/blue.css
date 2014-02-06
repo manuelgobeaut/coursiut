@@ -320,4 +320,5 @@ footer div.footer-ribon {
 
 footer div.footer-ribon::before {
 	border-right-color: #005580;
+	margin-left:-17px;
 }
